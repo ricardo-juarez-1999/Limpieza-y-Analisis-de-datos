@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import glob
 
+print("Primer cambio para comprobar local a remoto")
+
 #\\<=>=//#||''
 archis = glob.glob("C:/Python/Aanalisis_Data/Reto_Nivel_02/*.csv")
 
