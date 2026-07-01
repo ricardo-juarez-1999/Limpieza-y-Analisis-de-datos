@@ -28,13 +28,13 @@ print("Para que puedas visualizar tu panorama y ayudarte en la toma desiciones")
 ### Codigo_LdD.py
 ## 🖼*Capturas*
 ### Reporte limpio:
-![Reporte_limpio](<Report clean.png>)
+![Reporte_limpio](<reporte_limpio.png>)
 ### Reporte de errores:
-![Reporte_errores](<Report mistakes.png>)
+![Reporte_errores](<reporte_errores.png>)
 ### Grafica de barras:
-![barritas](Barras.png)
+![barritas](barras.png)
 ### Reporte ejecutivo y Conclusiones
-![Resumen_ejecutivo](Ejecutiv.png)
+![Resumen_ejecutivo](resumen_ejecutivo.png)
 ## 🛠*Tecnologías utilizadas*
 ### - Python 3.13.9
 ### - Matplotlib
