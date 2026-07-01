@@ -60,13 +60,14 @@ errors_final = pd.concat(errores, ignore_index = True)
 print(errors_final)
 print()
 ## 5.-Guardar resultados
-archis_final.to_csv("Archivo_final.csv", index = False)
-print(os.getcwd())
+#archis_final.to_csv("Archivo_final.csv", index = False)
+#print(os.getcwd())
 ## Guardar errores
-errors_final.to_csv("Errores_final.csv", index = False)
+#errors_final.to_csv("Errores_final.csv", index = False)
 
 ## Detección de Outliers
 # Esto detecta salarios sospechosos
+"""
 plt.figure()
 archis_final["Salario"].plot(kind="box")
 plt.title("Detección de Outliers en Salario")
@@ -86,25 +87,25 @@ outliers = archis_final[
 print("\nOutliers detectados:")
 print(outliers)
 print()
-
+"""
 
 #🟦 1. Empleados por departamento
-"""
+
 archis_final["Departamento"].value_counts().plot(kind="bar")
 plt.title("Empleados por Departamento")
 plt.xlabel("Departamento")
 plt.ylabel("Cantidad de empleados")
 plt.show()
-"""
+
 
 #🟥 2. Salario promedio por departamento
-
+"""
 archis_final.groupby("Departamento")["Salario"].mean().plot(kind="bar")
 plt.xlabel("Departamento")
 plt.ylabel("Salarium")
 plt.title("Puro Pudiente")
 plt.show()
-
+"""
 
 #🟩 3. Distribución de salarios
 """
@@ -118,7 +119,7 @@ plt.show()
 ## Reporte ejecutivo
 dep_salarios = archis_final.groupby("Departamento")["Salario"].mean()
 dep_menor = dep_salarios.idxmin()
-
+print("REPORTE EJECUTIVO")
 print(f"El departamento con más empleados es: \n{archis_final['Departamento'].value_counts().idxmax()}")
 print("Para reducir la carga de trabajo de los departamentos con pocos empleados, se debe contratar más personal")
 print(f"EL salario promedio es: \n{archis_final['Salario'].mean()}  ")
@@ -126,15 +127,18 @@ print(f"{dep_menor} tiene menor promedio salarial")
 print()
 
 ## Guardar Reporte ejecutivo
+"""
 with open("reporte.txt", "w") as f:
     f.write(f"Departamento con más empleados: {archis_final['Departamento'].value_counts().idxmax()}\n")
     f.write(f"Salario promedio: {archis_final['Salario'].mean()}\n")
     f.write(f"Departamento con menor salario: {dep_menor}\n")
+"""
 
 ## Insight
 # Conclusiones
+print("CONCLUSIONES")
 print("RH y Tecnología tienen los sueldos más grandes, debe analizarse el porqué de esto")
 print(dep_salarios.sort_values(ascending=False))
 print("Se detectaron outliers")
 print("VENTAS tiene el menor promedio salarial, debe de realizarse un aumento, debido a ser el dto. donde vienen las ganancias")
-print("El promdeio de salario debe revisarse, ya que no logra visualizarse del todo, los rangos altos de salario")
+print("El promedio de salario debe revisarse, ya que no logra visualizarse del todo, los rangos altos de salario")
