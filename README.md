@@ -8,7 +8,7 @@ print("Para que puedas visualizar tu panorama y ayudarte en la toma desiciones")
 ![Portada](Limpieza_y_analisis_de_datos.png)
 ## *Características*
 ## *Instalación*
-## *Cómo jugar*
+## *Cómo usar*
 ## *Capturas*
 ## *Tecnologías*
 ## *Licencia*
