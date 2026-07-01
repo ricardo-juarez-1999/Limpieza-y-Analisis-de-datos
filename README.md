@@ -25,8 +25,16 @@ print("Para que puedas visualizar tu panorama y ayudarte en la toma desiciones")
 ### glob.glob(...)
 ### Nota: Mucha atención en la forma de escribir la dirección de la carpeta de archivos CSV y finalizar con un .csv
 ### Ejecuta:
-### Limpieza-y-Analisis-de-datos.py
+### Codigo_LdD.py
 ## 🖼*Capturas*
+### Reporte limpio:
+![Reporte_limpio](<Report clean.png>)
+### Reporte de errores:
+![Reporte_errores](<Report mistakes.png>)
+### Grafica de barras:
+![barritas](Barras.png)
+### Reporte ejecutivo y Conclusiones
+![Resumen_ejecutivo](Ejecutiv.png)
 ## 🛠*Tecnologías utilizadas*
 ### - Python 3.13.9
 ### - Matplotlib
@@ -35,9 +43,9 @@ print("Para que puedas visualizar tu panorama y ayudarte en la toma desiciones")
 ### - Seaborn
 ### - Git
 ### - Github
-## 📂*Estructura del proyecto*
 ## 📈*Futuras mejoras*
-### Automatización completa de las conclusiones arrojadas, basandose completamente en los datos obtenidos
+### - Mejora visual de las graficas
+### - Automatización completa de las conclusiones arrojadas
 ## 📜*Licencia*
 ## 🗿*Autor*
 ### Ricardo Brayan Juarez Valencia
