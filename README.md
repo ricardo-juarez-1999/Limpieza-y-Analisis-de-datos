@@ -5,7 +5,7 @@ print("Este es un código que Limpia y Analiza tus archivos CSV")
 print("La intención es limpiar tus datos y graficarlos")
 print("Para que puedas visualizar tu panorama y ayudarte en la toma desiciones")
 ```
-![Portada](<Limpieza_y_analisis_de_datos.png>)
+![Portada](<C:\Python\GitHub_Works\Analisis_de_Datos\assets\Limpieza_y_analisis_de_datos.png>)
 ## 🔍*Características*
 ### - Lectura de multiples archivos CSV
 ### - Se trabaja sobre la copia del archivo original
