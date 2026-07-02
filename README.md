@@ -28,13 +28,13 @@ print("Para que puedas visualizar tu panorama y ayudarte en la toma desiciones")
 ### Codigo_LdD.py
 ## 🖼*Capturas*
 ### Reporte limpio:
-![Reporte_limpio](<C:\Python\GitHub_Works\Analisis_de_Datos\assets\reporte_limpio.png>)
+![Reporte_limpio](assets/reporte_limpio.png)
 ### Reporte de errores:
-![Reporte_errores](<C:\Python\GitHub_Works\Analisis_de_Datos\assets\reporte_errores.png>)
+![Reporte_errores](assets/reporte_errores.png)
 ### Grafica de barras:
-![barritas](C:\Python\GitHub_Works\Analisis_de_Datos\assets\barras.png)
+![Grafico_barras](assets/barras.png)
 ### Reporte ejecutivo y Conclusiones
-![Resumen_ejecutivo](C:\Python\GitHub_Works\Analisis_de_Datos\assets\resumen_ejecutivo.png)
+![Resumen_ejecutivo](assets/resumen_ejecutivo.png)
 ## 🛠*Tecnologías utilizadas*
 ### - Python 3.13.9
 ### - Matplotlib
